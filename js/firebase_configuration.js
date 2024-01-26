@@ -7,7 +7,7 @@ function validateEmail(email) {
 var config = {
     apiKey: "AIzaSyCFoJGpZOluzB_Qu2tbOC5elMIIficXB2g",
     authDomain: "coming-soon-digizy.firebaseapp.com",
-    databaseURL: "<DB URL>",
+    databaseURL: "",
     projectId: "coming-soon-digizy",
     storageBucket: "coming-soon-digizy.appspot.com",
     messagingSenderId: "414610334048"
