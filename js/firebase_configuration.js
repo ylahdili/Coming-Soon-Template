@@ -37,7 +37,7 @@ $(document).ready(function () {
                     })
                         .then(function (docRef) {
                             console.log("Document written with ID: ", docRef.id);
-                            $("#notifs-form-btn").text("Notified!").addClass("notified");
+                            $("#notifs-form-btn").text("Notified!").css("background-color", "green");
                         })
                         .catch(function (error) {
                             console.error("Error adding document: ", error);
