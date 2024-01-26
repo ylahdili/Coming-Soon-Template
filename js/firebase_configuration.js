@@ -38,6 +38,13 @@ $(document).ready(function () {
                         .then(function (docRef) {
                             console.log("Document written with ID: ", docRef.id);
                             $("#notifs-form-btn").text("Notified!");
+                            
+                             // Trigger confetti
+                             confetti({
+                                particleCount: 100,
+                                spread: 70,
+                                origin: { y: 0.6 }
+                            });
                         })
                         .catch(function (error) {
                             console.error("Error adding document: ", error);
